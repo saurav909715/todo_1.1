@@ -18,7 +18,7 @@ app.use(cors({
 }));
 
 app.get("/", (req, res) => {
-  return res.send("hiii");
+  return res.send("...");
 });
 
 app.use("/api", router);
